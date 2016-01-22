@@ -54,7 +54,7 @@ gulp.task('webpack', function(callback) {
         },
         output: {
             path: __dirname + "/public/assets/js",
-            filename: '[name]-bundle.js',
+            filename: 'bundle.js',
             chunkFilename: '[name].js'
         },
         resolve: {
