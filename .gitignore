@@ -9,6 +9,7 @@ bower_modules
 /craft/storage/*
 !/craft/storage/.gitignore
 !/craft/storage/logo/*
+!_db/*
 /craft/config/db.php
 
 /public/assets/css/*
