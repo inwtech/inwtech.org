@@ -17,55 +17,10 @@ return array(
   ),
 
   // Setup for local development.
-  'gee.craft.dev' => array(
+  'int.craft.dev' => array(
     'devMode' => true,
-    'cache' => false,
     'environmentVariables' => array(
-        'siteUrl' => 'http://gee.craft.dev', // when doing this put '{siteUrl}' in for > Site URL
-        'baseImagePath' => 'assets/img/',  // when doing this put '{baseImagePath}' in for assets
-        'baseImageUrl' => '/assets/img/',
-        'baseDocPath' => 'assets/docs/',
-        'baseDocUrl' => '/assets/docs/'
-    )
-  ),
-
-  // Setup for remote stage.
-  'gee.stage.uxiliary.io' => array(
-    'devMode' => false,
-    'cache' => false,
-    'environmentVariables' => array(
-        'siteUrl' => 'http://gee.stage.uxiliary.io',
-        'baseImagePath' => 'assets/img/',
-        'baseImageUrl' => '/assets/img/',
-        'baseDocPath' => 'assets/docs/',
-        'baseDocUrl' => '/assets/docs/'
-    )
-  ),
-
-  // Setup for remote stage.
-  // 's212178.gridserver.com' => array(
-  //   'devMode' => false,
-  //   'cache' => false,
-  //   'environmentVariables' => array(
-  //       'siteUrl' => 'http://gee.stage.uxiliary.io',
-  //       'baseImagePath' => 'assets/img/',
-  //       'baseImageUrl' => '/assets/img/',
-  //       'baseDocPath' => 'assets/docs/',
-  //       'baseDocUrl' => '/assets/docs/'
-  //   )
-  // ),
-
-  // Setup for production.
-  'geeautomotive.com' => array(
-    'devMode' => false,
-    'cache' => false,
-    'environmentVariables' => array(
-        'siteUrl' => 'http://geeautomotive.com',
-        'baseImagePath' => 'assets/img/',
-        'baseImageUrl' => '/assets/img/',
-        'baseDocPath' => 'assets/docs/',
-        'baseDocUrl' => '/assets/docs/'
+        'siteUrl' => 'http://int.craft.dev',
     )
   )
-
 );
